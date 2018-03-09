@@ -1,16 +1,16 @@
 # ZuJianHua
 使用知乎日报API进行组件化实践
 # 1. 说明
-[目录结构](https://github.com/skeyboy/ZuJianHua/blob/master/pic/main.png)
+目录结构![目录结构](https://github.com/skeyboy/ZuJianHua/blob/master/pic/main.png)
 
 1.  ZH为壳工程
 2.  ZHApi网络请求api以及模型工程
 3.  ZHComments长/短评论工程
 4.  ZHIntent参考豆瓣的PRIntent以及Android的Intent方式实现coding中页面的跳转、传值
 	
-	[Intent结构](https://github.com/skeyboy/ZuJianHua/blob/master/pic/intent1.png)
+	![Intent结构](https://github.com/skeyboy/ZuJianHua/blob/master/pic/intent1.png)
 	
-	[Intent使用](https://github.com/skeyboy/ZuJianHua/blob/master/pic/intent2.png)
+	![Intent使用](https://github.com/skeyboy/ZuJianHua/blob/master/pic/intent2.png)
 		```
 		Intent 传递的数据都必须基于Serializable protocol，		且将常用的基本数据均以extension此protocol
 		```
